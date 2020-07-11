@@ -47,7 +47,8 @@
 
 <body style='margin : 0px; overflow: hidden;'>
 	<div class="arjs-loader">
-		<div>Loading, please wait...</div>
+		<div>Loading, please wait... v1.0</div>
+
 	</div>
 	<a-scene vr-mode-ui="enabled: false;" renderer='antialias: true; alpha: true; precision: mediump;' embedded
 		arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;'>
@@ -61,7 +62,7 @@
 		<a-nft videohandler type='nft'
 			url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/luisem11/AR.js-examples/master/m/a'
 			smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5">
-			<a-video src="#vid" position='0 150 -100' width='300' height='175'>
+			<a-video src="#vid" position='0 0 0' width='300' height='175'>
 			</a-video>
 		</a-nft>
 		<a-entity camera></a-entity>
