@@ -54,15 +54,15 @@
 		arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;'>
 
 		<a-assets>
-			<video src="src/1.jpg" preload="auto" id="vid" response-type="arraybuffer" loop crossorigin
-				webkit-playsinline autoplay muted playsinline>
+			<video src="https://luisem11.b-cdn.net/VID-20200703-WA0011.mp4" preload="auto" id="vid"
+				response-type="arraybuffer" loop crossorigin webkit-playsinline autoplay muted playsinline>
 			</video>
 		</a-assets>
 
 		<a-nft videohandler type='nft'
 			url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/luisem11/AR.js-examples/master/m/a'
 			smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5">
-			<a-video src="#vid" position='0 0.2 -175' width='300' height='175' rotation="90 180 0">
+			<a-video src="#vid" position='0 -100 0' width='300' height='175' rotation="90 180 0">
 			</a-video>
 		</a-nft>
 		<a-entity camera></a-entity>
