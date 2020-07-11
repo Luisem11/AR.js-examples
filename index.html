@@ -59,12 +59,18 @@
 				playsinline>
 			</video>
 		</a-assets>
+		<a-assets>
+			<img id="my-image"
+				src="https://cors-anywhere.herokuapp.com/https://luisem11.b-cdn.net/1594479828995-deae7e02-6ff0-4c62-b32b-8c1aa5fb0fd1_.jpg">
+		</a-assets>
+
 
 		<a-nft videohandler type='nft'
 			url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/luisem11/AR.js-examples/master/m/a'
 			smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5">
-			<a-video src="#vid" position='0 0 0' width='200' height='300' rotation="90 180 0">
+			<a-video src="#my-image" position='0 0 0' width='200' height='300' rotation="90 180 0">
 			</a-video>
+
 		</a-nft>
 		<a-entity camera></a-entity>
 	</a-scene>
