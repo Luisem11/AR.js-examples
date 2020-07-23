@@ -47,7 +47,7 @@
 
 <body style='margin : 0px; overflow: hidden;'>
 	<div class="arjs-loader">
-		<div>Loading, please wait... v1.4.8</div>
+		<div>Loading, please wait... v1.4.9</div>
 
 	</div>
 	<a-scene vr-mode-ui="enabled: false;" renderer='antialias: true; alpha: true; precision: mediump;' embedded
@@ -63,12 +63,18 @@
 			<img id="my-image"
 				src="https://cors-anywhere.herokuapp.com/https://luisem11.b-cdn.net/1594479828995-deae7e02-6ff0-4c62-b32b-8c1aa5fb0fd1_.jpg">
 		</a-assets>
+		<a-assets>
+			<div id="gato">
+				<h3>Yo se que lo digo mucho, pero</h3>
+				<h1>Feliz cumpleaños!</h1>
+			</div>
+		</a-assets>
 
 
 		<a-nft videohandler type='nft'
-			url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/luisem11/AR.js-examples/master/m/panda'
+			url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/luisem11/AR.js-examples/master/m/gato'
 			smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5">
-			<a-video src="#my-image" position='0 200 0' width='200' height='400' rotation="90 180 0">
+			<a-video src="#gato" position='0 200 0' rotation="90 180 0">
 			</a-video>
 
 		</a-nft>
